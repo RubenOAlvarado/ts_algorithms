@@ -1,13 +1,6 @@
-import { palindrome } from "./palindrome";
+import { maxChar } from "./maxchar";
 
-console.log(" --- Palindrome ---");
-console.log("checking if abba is palindrome");
-console.log(palindrome("abba"));
-console.log("checking if abcdefg is palindrome");
-console.log(palindrome("abcdefg"));
-console.log("checking if hello is palindrome");
-console.log(palindrome("hello"));
-console.log("checking if racecar is palindrome");
-console.log(palindrome("racecar"));
-console.log("checking if kayak is palindrome");
-console.log(palindrome("kayak"));
+console.log(" --- Max char --- ");
+console.log("Max char of 'abcccccccd' is: ", maxChar("abcccccccd")); // c
+console.log("Max char of 'apple 1231111' is: ", maxChar("apple 1231111")); // 1
+console.log("Max char of 'Hello World' is: ", maxChar("Hello World")); // l
