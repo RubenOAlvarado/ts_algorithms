@@ -1,16 +1,13 @@
-import { reverseInt } from './reverse-integer';
-import { reverse } from './reverse-string';
-console.log('Hello, world!');
-const testValues = ['apple', 'hello', 'Greetings!'];
-console.log('Reversed values:');
-testValues.forEach(value => {
-    console.log(reverse(value));
-});
-console.log('Goodbye, world!');
-console.log('Hello, world!');
-const testValuesInt = [15, 981, 500, -15, -90];
-console.log('Reversed values:');
-testValuesInt.forEach(value => {
-    console.log(reverseInt(value));
-});
-console.log('Goodbye, world!');
+import { palindrome } from "./palindrome";
+
+console.log(" --- Palindrome ---");
+console.log("checking if abba is palindrome");
+console.log(palindrome("abba"));
+console.log("checking if abcdefg is palindrome");
+console.log(palindrome("abcdefg"));
+console.log("checking if hello is palindrome");
+console.log(palindrome("hello"));
+console.log("checking if racecar is palindrome");
+console.log(palindrome("racecar"));
+console.log("checking if kayak is palindrome");
+console.log(palindrome("kayak"));
