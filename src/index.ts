@@ -1,6 +1,7 @@
-import { maxChar } from "./maxchar";
+import { chunkArray } from './chunkarray';
 
-console.log(" --- Max char --- ");
-console.log("Max char of 'abcccccccd' is: ", maxChar("abcccccccd")); // c
-console.log("Max char of 'apple 1231111' is: ", maxChar("apple 1231111")); // 1
-console.log("Max char of 'Hello World' is: ", maxChar("Hello World")); // l
+console.log(" --- Chunk array --- ");
+console.log(`Chunk array [1, 2, 3, 4] with size 2: ${JSON.stringify(chunkArray([1, 2, 3, 4], 2))}`);
+console.log(`Chunk array [1, 2, 3, 4, 5] with size 2: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5], 2))}`);
+console.log(`Chunk array [1, 2, 3, 4, 5, 6, 7, 8] with size 3: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5, 6, 7, 8], 3))}`);
+console.log(`Chunk array [1, 2, 3, 4, 5] with size 4: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5], 4))}`);
