@@ -1,7 +1,9 @@
-import { chunkArray } from './chunkarray';
+import { titleCase } from "./titlecase";
 
-console.log(" --- Chunk array --- ");
-console.log(`Chunk array [1, 2, 3, 4] with size 2: ${JSON.stringify(chunkArray([1, 2, 3, 4], 2))}`);
-console.log(`Chunk array [1, 2, 3, 4, 5] with size 2: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5], 2))}`);
-console.log(`Chunk array [1, 2, 3, 4, 5, 6, 7, 8] with size 3: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5, 6, 7, 8], 3))}`);
-console.log(`Chunk array [1, 2, 3, 4, 5] with size 4: ${JSON.stringify(chunkArray([1, 2, 3, 4, 5], 4))}`);
+console.log(" --- Title Case --- ");
+console.log(`Title Casing: 'a short sentence'`);
+console.log(titleCase('a short sentence')); // 'A Short Sentence'
+console.log(`Title Casing: 'a lazy fox'`);
+console.log(titleCase('a lazy fox')); // 'A Lazy Fox'
+console.log(`Title Casing: 'look, it is working!'`);
+console.log(titleCase('look, it is working!')); // 'Look, It Is Working!'
