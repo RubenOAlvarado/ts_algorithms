@@ -1,7 +1,9 @@
-import { steps } from './steps-string-pattern';
+import { pyramid } from './pyramid-string-pattern';
 
-console.log(" --- Steps string patterns --- ");
-console.log("steps(2): ");
-steps(2);
-console.log("steps(3): ");
-steps(3);
+console.log(" --- Pyramid string patterns --- ");
+console.log("pyramid(1)");
+pyramid(1);
+console.log("pyramid(2)");
+pyramid(2);
+console.log("pyramid(3)");
+pyramid(3);
