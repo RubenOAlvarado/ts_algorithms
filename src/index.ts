@@ -1,9 +1,7 @@
-import { fizzBuzz } from './fizzbuzz';
+import { steps } from './steps-string-pattern';
 
-console.log(" --- FizzBuzz --- ");
-console.log("fizzBuzz(5) --> ");
-fizzBuzz(5);
-console.log("fizzBuzz(15) --> ");
-fizzBuzz(15);
-console.log("fizzBuzz(100) --> ");
-fizzBuzz(100);
+console.log(" --- Steps string patterns --- ");
+console.log("steps(2): ");
+steps(2);
+console.log("steps(3): ");
+steps(3);
